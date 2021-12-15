@@ -1,0 +1,5 @@
+ function groupCheck(s){
+     const regex = /\{\}|\[\]|\(\)/
+  while (regex.test(s)) s = s.replace(regex, '')
+  return !s.length
+}
