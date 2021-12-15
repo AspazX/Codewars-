@@ -1,0 +1,4 @@
+function isRubyComing(list) {
+    return list.some(v=>v.language==='Ruby')
+  // thank you for checking out my kata :)
+}
