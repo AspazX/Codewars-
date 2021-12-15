@@ -1,0 +1,11 @@
+function queueTime(customers, n) {
+  let a = [];
+ for (let i = 0; i < n; i++) {
+    a[i] = 0;
+  }
+  customers.map(e => {
+    let b = a.indexOf(Math.min(...a));
+    a[b] += e;
+  });
+  return Math.max(...a);
+}
