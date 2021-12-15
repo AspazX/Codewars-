@@ -1,0 +1,4 @@
+function findAdmin(list, lang) {
+    return list.filter(v=>v.language===lang&&v.githubAdmin==='yes')
+  // thank you for checking out the Coding Meetup kata :)
+}
