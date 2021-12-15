@@ -1,0 +1,8 @@
+#include <stddef.h>
+
+void count_positives_sum_negatives(
+  int *values, size_t count, int *positivesCount, int *negativesSum) 
+{
+      while (count--)
+      values[count] <= 0 ? (*negativesSum) += values[count] : (*positivesCount)++;
+}  
