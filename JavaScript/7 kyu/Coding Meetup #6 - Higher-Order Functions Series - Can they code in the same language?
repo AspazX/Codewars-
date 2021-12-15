@@ -1,0 +1,5 @@
+function isSameLanguage(list) {
+    const lang=list[0].language
+  return list.every(v=>v.language===lang)
+  // thank you for checking out the Coding Meetup kata :)
+}
